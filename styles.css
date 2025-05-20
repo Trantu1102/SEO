@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+#linkInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+#sendBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#copyBtn {
+    background-color: #2196f3;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+#result {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #2196f3;
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
